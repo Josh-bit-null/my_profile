@@ -1,11 +1,11 @@
 {
-    "name": "pangantihon_unit5_exercise",
-    "short_name": "pangantihon_unit5_exercise",
+    "name": "Joshua's Profile",
+    "short_name": "Joshua's Profile",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
-    "description": "A new Flutter project.",
+    "description": "Joshua Pangantihon profile app with gallery, pet, and My Shelf.",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [

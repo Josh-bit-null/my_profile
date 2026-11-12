@@ -1,5 +1,14 @@
 # Pangantihon Unit 7 Exercise
 
+## Unit 8 deployment checklist
+
+This project is set up for the Unit 8 release workflow:
+
+- Set the app version to `1.1.0+2` and use a public app label such as `Joshua's Profile` in the web metadata and Android manifest.
+- Keep Strapi configuration out of source control. Create a local `cms.json` with your hosted CMS URL (for example `https://localstrapi.onrender.com`) and add `OMDB_KEY` when running locally.
+- Keep Android signing credentials in `android/key.properties`, which is ignored by Git.
+- Publish the web app with GitHub Pages using the workflow in `.github/workflows/deploy.yml`. Add the GitHub repository secret `OMDB_KEY` and repository variable `CMS_URL` before the first push.
+
 The app adds a **My Shelf** destination to the profile app. Its tabs search
 Open Library books, search OMDb movies, and load personal recommendations from
 Strapi. A pick stores only its title, kind, external API ID, and your note;

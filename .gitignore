@@ -46,3 +46,7 @@ app.*.map.json
 
 # Widget Preview related
 .widget_preview/
+
+# Local app configuration and secrets
+cms.json
+android/key.properties
